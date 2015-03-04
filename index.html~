@@ -1,0 +1,372 @@
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Rim .- Arquitectura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Emanuel" >
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel='stylesheet' id='prettyphoto-css'  href="css/prettyPhoto.css" type='text/css' media='all'>
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 7]>
+            <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet">  
+        <![endif]-->
+    <!-- Google Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Load ScrollTo -->
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- Load LocalScroll -->
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <!-- prettyPhoto Initialization -->
+    <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+          });
+        </script>
+    </head>
+    <body>
+    <!--******************** NAVBAR ********************-->
+    <div class="navbar-wrapper">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+            <h1 class="brand"><a href="#top">RIM - Arquitectura</a></h1>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <nav class="pull-right nav-collapse collapse">
+              <ul id="menu-main" class="nav">
+                <li><a title="portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a title="services" href="#services">Servicios</a></li>
+                <li><a title="team" href="#team">Quienes somos?</a></li>
+                <li><a title="contact" href="#contact">Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.navbar-inner -->
+      </div>
+      <!-- /.navbar -->
+    </div>
+    <!-- /.navbar-wrapper -->
+    <div id="top"></div>
+    <!-- ******************** HeaderWrap ********************-->
+    <div id="headerwrap">
+      <header class="clearfix">
+        
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <ul class="icon">
+                <li><a href="#" target="_blank"><i class="icon-pinterest-circled"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon-facebook-circled"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon-twitter-circled"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon-gplus-circled"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon-skype-circled"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--******************** Feature ********************-->
+    <div class="scrollblock">
+      <section id="feature">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <article>
+                <p>Alvar Aalto:</p>
+                <p>"La arquitectura moderna no significa el uso de nuevos materiales,  </p>
+                <p>sino utilizar los materiales existentes en una forma más humana."</p>
+                
+              </article>
+            </div>
+            <!-- ./span12 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- ./container -->
+      </section>
+    </div>
+    <hr>
+    <!--******************** Portfolio Section ********************-->
+    <section id="portfolio" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-desktop-circled"></i></div>
+        <h1 id="folio-headline">Portfolio...</h1>
+        <div class="row">
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim1.jpg" rel="prettyPhoto"><img src="img/rim1.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>Ethan Marcotte Design</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim3.jpg" rel="prettyPhoto"><img src="img/rim3.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>A Book Apart</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim4.jpg" rel="prettyPhoto"><img src="img/rim4.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>Four Rules for Designers</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+        
+        <div class="row">
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim5.jpg" rel="prettyPhoto"><img src="img/rim5.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>Ethan Marcotte Design</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim6.jpg" rel="prettyPhoto"><img src="img/rim6.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>A Book Apart</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/rim7.jpg" rel="prettyPhoto"><img src="img/rim7.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>Four Rules for Designers</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a class="more-link" href="#">view project</a> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Services Section ********************-->
+    <section id="services" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-cog-circled"></i></div>
+        <h1>Servicios</h1>
+        <!-- Four columns -->
+        <div class="row">
+          <div class="span3">
+            <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
+            <h2>Anteproyecto</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-vector sev_icon"></i> </div>
+            <h2>Dirección de obra</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-basket sev_icon"></i> </div>
+            <h2>Proyección de obra</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-mobile-1 sev_icon"></i> </div>
+            <h2>Planos</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+          <!-- /.span3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Testimonials Section ********************-->
+    <section id="testimonials" class="single-page hidden-phone">
+      <div class="container">
+        <div class="row">
+          <div class="blockquote-wrapper">
+            <blockquote class="mega">
+              <div class="span4">
+                <p class="cite">Frank Lloyd Wright:</p>
+              </div>
+              <div class="span8">
+                <p class="alignright">"La arquitectura es vida, o por lo menos es la vida misma tomando forma y por lo tanto es el documento más sincero de la vida tal como fue vivida siempre".</p>
+              </div>
+            </blockquote>
+          </div>
+          <!-- /.blockquote-wrapper -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Team Section ********************-->
+    <section id="team" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-group-circled"></i></div>
+        <h1>Nosotros</h1>
+        <!-- Five columns -->
+<div class="row">
+          <div class="span2 offset1">
+            
+          </div>        
+        <div class="row">
+          <div class="span2 offset1">
+            <div class="teamalign"> <img class="team-thumb img-circle" src="img/mai.jpg" alt=""> </div>
+            <h3>Iun Murguía, Maite</h3>
+            <div class="job-position">Arquitecta</div>
+          </div>
+          <!-- ./span2 -->
+          <div class="span2">
+            <div class="teamalign"> <img class="team-thumb img-circle" src="img/rade.jpg" alt=""> </div>
+            <h3>Radetich, Mariano</h3>
+            <div class="job-position">Arquitecto</div>
+          </div>
+          
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="span10 offset1">
+            <hr class="featurette-divider">
+            <div class="featurette">
+              <h2 class="featurette-heading">Un poco de nuestra historia </h2>
+              <p>Somo dos jovenes arquitectos recibidos en la Universidad Nacional de La Plata. Bla bla bla bla.....</p>
+              <p>Si ustedes quieren podríamos poner el CV de Maicha</p>
+              <p>Si ustedes quieren podemos poner el CV de Marianito</p>
+            </div>
+            <!-- /.featurette -->
+            <hr class="featurette-divider">
+          </div>
+          <!-- .span10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!--******************** Contact Section ********************-->
+    <section id="contact" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-mail-2"></i></div>
+        <h1>Contactanos!</h1>
+        <div class="row">
+          <div class="span12">
+            <div class="cform" id="theme-form">
+              <form action="#" method="post" class="cform-form">
+                <div class="row">
+                  <div class="span6"> <span class="your-name">
+                    <input type="text" name="your-name" placeholder="Tu nombre aquí" class="cform-text" size="40" title="your name">
+                    </span> </div>
+                  <div class="span6"> <span class="your-email">
+                    <input type="text" name="your-email" placeholder="Tu correo electronico" class="cform-text" size="40" title="your email">
+                    </span> </div>
+                </div>
+                
+                <div class="row">
+                  <div class="span12"> <span class="message">
+                    <textarea name="message" class="cform-textarea" cols="40" rows="10" title="drop us a line."></textarea>
+                    </span> </div>
+                </div>
+                <div>
+                  <input type="submit" value="Enviar Mensaje" class="cform-submit pull-left">
+                </div>
+                <div class="cform-response-output"></div>
+              </form>
+            </div>
+          </div>
+          <!-- ./span12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <div class="footer-wrapper">
+      <div class="container">
+        <footer>
+          <small>&copy; 2014 .- Todos los derechos reservados</small>
+        </footer>
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- Loading the javaScript at the end of the page -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    
+    <!--ANALYTICS CODE-->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29231762-1']);
+	  _gaq.push(['_setDomainName', 'dzyngiri.com']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+    </body>
+    </html>
